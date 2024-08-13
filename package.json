@@ -2,15 +2,11 @@
     "name": "@quarrelgame-framework/types",
     "version": "1.0.0",
     "description": "A flamework-based flamework for combat game development.",
-    "main": "out/init.lua",
-    "scripts": {
-        "build": "rbxtsc",
-        "watch": "rbxtsc -w",
-        "prepublishOnly": "yarn run build"
-    },
-    "types": "out/index.d.ts",
+    "main": "index.d.ts",
+    "scripts": {},
+    "types": "index.d.ts",
     "files": [
-        "out",
+        "index.d.ts",
         "!**/*.tsbuildinfo"
     ],
     "publishConfig": {
